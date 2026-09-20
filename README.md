@@ -1,4 +1,4 @@
-# Machine Learning Practicals
+# Applied Machine Learning Portfolio
 
 This repository contains practical assignments and synthetic datasets completed for the Master of Science in Data Science program.
 
@@ -18,3 +18,8 @@ This repository contains practical assignments and synthetic datasets completed 
 * **Description:** Multi-class classification using the KNN algorithm (K=5).
 * **Dataset:** `human_iris_eye_color.csv` (Custom synthetic dataset classifying human eye color based on Melanin levels and Stroma density).
 * **Metrics Tracked:** Accuracy and Confusion Matrix Visualization.
+
+### 4. Computer Vision: Eye Image Classification
+* **Description:** An end-to-end image processing pipeline utilizing OpenCV to resize, flatten, and classify images of human eyes. Evaluates and compares Linear Regression, Logistic Regression, and K-Nearest Neighbors (K=5) on flattened 64x64 pixel arrays (4,096 features).
+* **Dataset:** `Eye Iris CASIA` (Kaggle image dataset containing 'eye' and 'no eye' classes).
+* **Metrics Tracked:** Accuracy, Custom Confusion Matrices (Seaborn), and Linear Regression Decision Threshold Visualization.
