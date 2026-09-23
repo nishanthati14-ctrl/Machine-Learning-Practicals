@@ -23,3 +23,8 @@ This repository contains practical assignments and synthetic datasets completed 
 * **Description:** An end-to-end image processing pipeline utilizing OpenCV to resize, flatten, and classify images of human eyes. Evaluates and compares Linear Regression, Logistic Regression, and K-Nearest Neighbors (K=5) on flattened 64x64 pixel arrays (4,096 features).
 * **Dataset:** `Eye Iris CASIA` (Kaggle image dataset containing 'eye' and 'no eye' classes).
 * **Metrics Tracked:** Accuracy, Custom Confusion Matrices (Seaborn), and Linear Regression Decision Threshold Visualization.
+
+### 5. Naive Bayes Classification
+* **Description:** Binary classification model applying Gaussian Naive Bayes to predict the presence of heart disease based on clinical comparison parameters.
+* **Dataset:** `heart.csv` (UCI Cleveland Heart Disease dataset from Kaggle).
+* **Metrics Tracked:** Accuracy, Classification Report, Confusion Matrix, ROC Curve (AUC), and Gaussian Feature Distribution (KDE Plot).
